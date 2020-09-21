@@ -1,0 +1,454 @@
+body{
+  background-color: pink;
+  
+  background-image: linear-gradient(#020202, #020202,#1d2d50,#0f4c75,#9d65c9,#d789d7,#fff);
+}
+
+
+canvas {
+  position: absolute;
+  right: 6%;
+  cursor: pointer;
+  display: block;
+}
+.container-fluid{
+  padding: 1% 8% 30%;
+}
+
+/* Title */
+a{
+  color: #e89f71;
+}
+
+a:hover{
+  color: #8675a9;
+  text-decoration: none;
+}
+.heart{
+  color: pink;
+}
+
+.heart:hover{
+  color: red;
+}
+.Mwishes{
+
+  font-family: 'Pacifico', cursive;
+  font-size: 5.3rem;
+}
+.wishes{
+    position: absolute;
+  left: 16%;
+  text-align: center;
+  padding-top:  50px;
+  
+}
+
+
+
+/* Rotate Image */
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(2deg);}
+    50%{-webkit-transform: rotate(-0.2deg)}
+    100%{-webkit-transform: rotate(2deg);}
+}
+@keyframes swinging{
+    0%{transform: rotate(2deg);}
+    50%{transform: rotate(-0.2deg)}
+    100%{transform: rotate(2deg);}
+}
+@-webkit-keyframes swingings{
+    0%{-webkit-transform: rotate(-2deg);}
+    50%{-webkit-transform: rotate(0.2deg)}
+    100%{-webkit-transform: rotate(-2deg);}
+}
+@keyframes swingings{
+    0%{transform: rotate(-2deg);}
+    50%{transform: rotate(0.2deg)}
+    100%{transform: rotate(-2deg);}
+}
+
+.lswing{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swing 3.5s ease-in-out forwards infinite;
+    animation: swing 3.5s ease-in-out forwards infinite;
+
+}
+@-webkit-keyframes swing{
+    0%{-webkit-transform: rotate(3deg);}
+    50%{-webkit-transform: rotate(-0.6deg)}
+    100%{-webkit-transform: rotate(3deg);}
+}
+@keyframes swing{
+    0%{transform: rotate(3deg);}
+    50%{transform: rotate(-0.6deg)}
+    100%{transform: rotate(3deg);}
+}
+.rswing{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swingr 3.5s ease-in-out forwards infinite;
+    animation: swingr 3.5s ease-in-out forwards infinite;
+}
+@-webkit-keyframes swingr{
+    0%{-webkit-transform: rotate(4deg);}
+    50%{-webkit-transform: rotate(-0.8deg)}
+    100%{-webkit-transform: rotate(4deg);}
+}
+@keyframes swingr{
+    0%{transform: rotate(4deg);}
+    50%{transform: rotate(-0.8deg)}
+    100%{transform: rotate(4deg);}
+}
+.lrswing{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinglr 3.5s ease-in-out forwards infinite;
+    animation: swinglr 3.5s ease-in-out forwards infinite;
+}
+@-webkit-keyframes swinglr{
+    0%{-webkit-transform: rotate(6deg);}
+    50%{-webkit-transform: rotate(-1.2deg)}
+    100%{-webkit-transform: rotate(6deg);}
+}
+@keyframes swinglr{
+    0%{transform: rotate(6deg);}
+    50%{transform: rotate(-1.2deg)}
+    100%{transform: rotate(6deg);}
+}
+
+.xswing{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swingx 3.5s ease-in-out forwards infinite;
+    animation: swingx 3.5s ease-in-out forwards infinite;
+
+}
+@-webkit-keyframes swingx{
+    0%{-webkit-transform: rotate(-3deg);}
+    50%{-webkit-transform: rotate(0.6deg)}
+    100%{-webkit-transform: rotate(-3deg);}
+}
+@keyframes swingx{
+    0%{transform: rotate(-3deg);}
+    50%{transform: rotate(0.6deg)}
+    100%{transform: rotate(-3deg);}
+}
+
+.xyswing{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swingxy 3.5s ease-in-out forwards infinite;
+    animation: swingxy 3.5s ease-in-out forwards infinite;
+
+}
+@-webkit-keyframes swingxy{
+    0%{-webkit-transform: rotate(-4deg);}
+    50%{-webkit-transform: rotate(0.8deg)}
+    100%{-webkit-transform: rotate(-4deg);}
+}
+@keyframes swingxy{
+    0%{transform: rotate(-4deg);}
+    50%{transform: rotate(0.8deg)}
+    100%{transform: rotate(-4deg);}
+}
+.xyzswing{
+-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swingxyz 3.5s ease-in-out forwards infinite;
+    animation: swingxyz 3.5s ease-in-out forwards infinite;
+}
+@-webkit-keyframes swingxyz{
+    0%{-webkit-transform: rotate(-6deg);}
+    50%{-webkit-transform: rotate(1.2deg)}
+    100%{-webkit-transform: rotate(-6deg);}
+}
+@keyframes swingxyz{
+    0%{transform: rotate(-6deg);}
+    50%{transform: rotate(1.2deg)}
+    100%{transform: rotate(-6deg);}
+}
+.allpho{
+  padding-top: 35%; 
+}
+.first4{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+.second4{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swingings 3.5s ease-in-out forwards infinite;
+    animation: swingings 3.5s ease-in-out forwards infinite;
+}
+.third4{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+.forth4{
+  -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swingings 3.5s ease-in-out forwards infinite;
+    animation: swingings 3.5s ease-in-out forwards infinite;
+}
+/*.pendu{
+-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}*/
+
+.image{
+  position: relative;
+  top: 8%;
+  left: 5%;
+  width: 80%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(-15deg);
+  cursor: pointer;
+
+}
+.image2{
+  position: relative;
+  top: 9%;
+  left: 15%;
+  width: 53%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(-15deg);
+    cursor: pointer;
+}
+.image3{
+  position: relative;
+  top: 0;
+  left: 16%;
+  width: 55%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(18deg);
+    cursor: pointer;
+}
+.image4{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 75%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(18deg);
+    cursor: pointer;
+}
+.image5{
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 80%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(18deg);
+    cursor: pointer;
+}
+.image6{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 85%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(-18deg);
+  cursor: pointer;
+}
+.image7{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 65%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(18deg);
+  cursor: pointer;
+}
+.image8{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 85%;
+  height: auto;
+  border-radius: 5%;  
+  transform: rotate(18deg);
+  cursor: pointer;
+}
+.image9{
+  position: relative;
+  margin-top: 15%;
+  right: 15%;
+  width: 105%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(-30deg);
+  cursor: pointer;
+}
+.image10{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 85%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(-18deg);
+  cursor: pointer;
+}
+.image11{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 65%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(18deg);
+  cursor: pointer;
+}
+.image12{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 85%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(18deg);
+  cursor: pointer;
+}
+.image13{
+  position: relative;
+  margin-top:  30%;
+  /*bottom: 10%;*/
+  right: 10%;
+  width: 105%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(30deg);
+  cursor: pointer;
+}
+.image14{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 85%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(-18deg);
+  cursor: pointer;
+}
+.image15{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 85%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(18deg);
+  cursor: pointer;
+}
+.image16{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 85%;
+  height: auto;
+  border-radius: 5%;
+    transform: rotate(18deg);
+  cursor: pointer;
+}
+
+/* Navigation Bar */
+
+.img-responsive2{
+  width: 50px;
+  height: 50px;
+  border-radius:35%;
+}
+
+.navbar-brand{
+  font-size: 1.8rem;
+
+}
+
+.navbar{
+  padding: 2rem 0 4.5rem;
+}
+.nav-item{
+  padding: 0 7px;
+}
+.nav-link{
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/*charater section*/
+h3{
+  font-family: "Montserrat-bold"
+}
+
+#S2{
+  padding: 5% 8%;
+ text-align: center;
+}
+h3{
+  color: #fff;
+}
+p{
+  font-size: 1.2rem;
+}
+.charater-box{
+ padding: 3%;
+}
+.icon1{
+  color: #cd0a0a;
+margin-bottom: 1rem;
+}
+.icon{
+  color: gold;
+  margin-bottom: 1rem; 
+}
+.icon2{
+  color: orange;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: yellow;
+}
+.icon1:hover{
+  color: red;
+}
+.icon2:hover{
+  color: #febf63;
+}
+/*Section 3*/
+
+#S3{
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.cone{
+  padding-top:  10%;
+  padding-bottom: 10%;
+}
+/*memories*/
+#memos{
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
